@@ -15,7 +15,7 @@ typedef struct node_t {
 
 typedef struct {
   node_t *root;
-  node_t *nil;  // for sentinel
+  node_t *nil;  // for sentinel : NIL을 표현하기 위해 하나의 경계 노드 사용
 } rbtree;
 
 rbtree *new_rbtree(void);
